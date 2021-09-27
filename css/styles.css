@@ -1,0 +1,400 @@
+/* SECTION ID = TITLE */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+
+.logo {
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding-top: 2%;
+}
+
+.container-fluid {
+  padding: 3% 10% 4%;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #fffafa;
+  background-image: url(back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.side {
+  border-radius: 5px;
+}
+
+.logo_img {
+  border-radius: 20px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.shop {
+  color: black;
+}
+
+
+#title {
+  background-color: white;
+  text-align: left;
+}
+
+.head {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: black;
+  padding-bottom: 2%;
+}
+
+.punch {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100;
+  color: #393e46;
+}
+
+.custom {
+  margin: 5% 5% 3% 0;
+}
+
+.img {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  z-index: 0;
+  right: 5%;
+  top: 5%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+@media screen and (max-width : 995px) {
+  #title {
+    text-align: center;
+  }
+
+  .img {
+    position: static;
+    transform: rotate(0);
+    left: 1%;
+    padding-top: 8%;
+  }
+  .logo{
+    text-align: center;
+    padding-right: 10%;
+  }
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.row {
+  text-align: center;
+  padding: 3%;
+  padding-left: 0;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+
+.gif {
+  position: absolute;
+  top: 85%;
+  right: 60%;
+}
+
+/* Section ID = FEATURES */
+#features {
+  background-color: #fffafa;
+  position: relative;
+  z-index: 1;
+}
+
+.feat{
+  padding: 0 15% 4% 15%;
+  background-color: #ef8172;
+}
+
+.cir {
+  color: #393e46;
+  display: block;
+  padding-bottom: 5%;
+  font-size: 3rem;
+  transition: 0.5s;
+}
+
+.cir:hover{
+  font-size: 3.5rem;
+}
+
+.ingri {
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: left;
+  padding: 4% 5% 15% 5%;
+}
+
+
+.img_bot {
+  position: relative;
+  top: 40%;
+  left: -10%;
+  border-radius: 50%;
+}
+
+.carousel-item {
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 0 15% 5%;
+  color: #393e46;
+}
+
+.carousel{
+  background-color: #ef8172;
+  padding-bottom: 0;
+}
+
+
+.ingri_head{
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-top: 8%;
+  padding-bottom: 2%;
+}
+
+.ingri_text{
+  line-height: 2.4rem;
+  padding-bottom: 4%;
+  font-weight: 500;
+}
+
+@media screen and (max-width : 1100px) {
+  .ingri {
+    text-align: center;
+  }
+
+  .img_bot {
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: -17%;
+    top: 5%;
+  }
+
+  .img_top {
+    visibility: collapse;
+  }
+
+}
+
+.gif {
+  position: static;
+  background-image: url(alcoholnew.gif);
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-color: #fffafa;
+  ;
+}
+
+.giftext {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.4;
+  font-weight: 900;
+  color: white;
+  margin: 0;
+  padding: 12% 5%;
+}
+
+
+/* Section ID = about*/
+.gif_animal {
+  position: static;
+  background-image: url(giphy1.gif);
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#about {
+  background-color: #fffafa;
+  position: relative;
+  z-index: 1;
+}
+
+.about_head {
+  font-size: 3rem;
+  padding-bottom: 5%;
+  font-weight: 400;
+}
+
+.aboutUs {
+  padding: 2% 5% 2% 5%;
+}
+
+.about_para {
+  text-align: left;
+  line-height: 2rem;
+}
+
+.about_pic {
+  position: relative;
+  top: 20%;
+  right: -10%;
+  border-radius: 50%;
+}
+
+.email_in {
+  text-align: center;
+  background-color: #ef8172;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 30%;
+  background-color: #ef8172;
+  font-size: 16px;
+  padding: 12px 20px 12px 0;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+@media screen and (max-width : 1100px) {
+  .about_pic {
+    position: absolute;
+    visibility: collapse;
+  }
+}
+
+/* footer section */
+
+#footer {
+  background-color: #fff;
+  padding: 3% 15%;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  padding: 3% 1%;
+  color: Black;
+}
+
+/** SKIN.HTML **/
+/** SECTION ID = PRODUCTS **/
+.prod_title{
+  padding-top: 4%;
+  padding-left: 8%;
+  text-align: left;
+  padding-right: 7%;
+  text-decoration: overline;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.line{
+  border-color: #393e46;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.product{
+  background-color: #f7f6e7;
+}
+
+.crossprize{
+  text-decoration: line-through;
+  color: #393e46;
+  margin-left: 7%;
+  font-size: 1rem;
+}
+
+.prod_main{
+  padding: 5%;
+}
+
+.prod{
+  padding-left: 2%;
+  padding-bottom: 5%;
+}
+
+.prod_img{
+  transition: .8s;
+}
+
+.prod_img:hover{
+  height: 350px;
+  width: 350px;
+}
+
+.prod_intro{
+  text-align: left;
+  transition: 0.5s;
+  padding-left: 7%;
+}
+
+.prod_intro:hover{
+  font-size: 1.1rem;
+}
+
+/** GIFTS PAGE **/
+.prod_punch{
+  padding-left: 8%;
+  padding-right: 7%;
+  padding-bottom: 2%;
+  text-align: left;
+}
+
+/** CART **/
+.cart{
+  padding: 3% 9% 3% 8%;
+  text-align: left;
+}
+
+.final{
+  padding: 0% 8% 5% 8%;
+  text-align: right;
+}
+
+.final_button{
+  margin-left: 2%;
+}
+
+@media screen and (max-width : 1100px) {
+  .cart{
+    text-align: center;
+  }
+}
